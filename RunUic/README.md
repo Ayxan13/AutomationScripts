@@ -1,6 +1,6 @@
 # What is this?
 
-A tool to manually run Qt-UIC on a .UI file.
+A tool to manually run [Qt-UIC](https://doc.qt.io/qt-5/uic.html) on a .UI file.
 
 # How to use?
 
@@ -13,3 +13,6 @@ python RunUic.py --run SomeFile.ui # generates ui_SomeFile.h
 # How does this speed up the process?
 
 Once set-up, you can quickly do `python RunUic.py --SomeFile.ui` without finding the project folder and finding the UIC.exe and so on.
+
+# Supported Operating Systems?
+* Windows (tested on Windows 10)

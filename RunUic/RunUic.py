@@ -5,9 +5,6 @@ import shelve
 import re
 import subprocess
 
-# Store config in this file
-CONFIG_PATH: Final = "~/AppData/Roaming/RunUic/config.txt"
-
 # JSON key for uic.exe
 UIC_KEY: Final = "UicPath"
 
